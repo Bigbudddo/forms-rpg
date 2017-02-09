@@ -1,0 +1,8 @@
+E:\Programming\WinFormsRPG\WinFormsRPG\bin\Debug\WinFormsRPG.exe.config
+E:\Programming\WinFormsRPG\WinFormsRPG\bin\Debug\WinFormsRPG.exe
+E:\Programming\WinFormsRPG\WinFormsRPG\bin\Debug\WinFormsRPG.pdb
+E:\Programming\WinFormsRPG\WinFormsRPG\obj\Debug\WinFormsRPG.MainScreen.resources
+E:\Programming\WinFormsRPG\WinFormsRPG\obj\Debug\WinFormsRPG.Properties.Resources.resources
+E:\Programming\WinFormsRPG\WinFormsRPG\obj\Debug\WinFormsRPG.csproj.GenerateResource.Cache
+E:\Programming\WinFormsRPG\WinFormsRPG\obj\Debug\WinFormsRPG.exe
+E:\Programming\WinFormsRPG\WinFormsRPG\obj\Debug\WinFormsRPG.pdb
