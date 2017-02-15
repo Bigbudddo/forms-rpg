@@ -38,17 +38,21 @@ namespace WinFormsRPG.Core {
             top.Update(sender, e);
             top.Draw();
             Controller.Invalidate();
+
+            if (top.StateFinished) {
+                Pop();
+                Buffer(sender, e);
+            }
+        }
+
+        public void Input(object sender, KeyEventArgs e) {
+            IState top = mStack.Peek();
+            top.Input(sender, e);
         }
 
         public void Buffer(object sender, EventArgs e) {
             IState top = mStack.Peek();
-            ClientWidth = Controller.ClientSize.Width;
-            ClientHeight = Controller.ClientSize.Height;
-            
-            if (top.BackBuffer != null) {
-                top.BackBuffer.Dispose();
-            }
-            top.BackBuffer = new Bitmap(ClientWidth, ClientHeight);
+            top.Buffer(Controller.ClientSize.Width, Controller.ClientSize.Height);
         }
 
         public void Render(object sender, PaintEventArgs e) {

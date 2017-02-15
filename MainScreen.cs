@@ -24,10 +24,12 @@ namespace WinFormsRPG {
             this.SetStyle(ControlStyles.UserPaint | ControlStyles.AllPaintingInWmPaint | ControlStyles.OptimizedDoubleBuffer, true);
 
             Dictionary<string, IState> states = new Dictionary<string, IState>() {
-                { "Empty", new EmptyState() }
+                { "MainMenu", new MainMenuState() },
+                { "Logo", new LogoState() }
             };
             _GameStack = new StateStack(this, ClientSize.Width, ClientSize.Height, states);
-            _GameStack.Push("Empty");
+            _GameStack.Push("MainMenu");
+            _GameStack.Push("Logo");
 
             _GameTimer = new Timer();
             _GameTimer.Interval = 10;
@@ -36,6 +38,7 @@ namespace WinFormsRPG {
 
             ResizeEnd += new EventHandler(_GameStack.Buffer);
             Load += new EventHandler(_GameStack.Buffer);
+            KeyDown += new KeyEventHandler(_GameStack.Input);
             Paint += new PaintEventHandler(_GameStack.Render);
         }
     }

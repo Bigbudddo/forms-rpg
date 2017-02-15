@@ -6,3 +6,7 @@ E:\Programming\WinFormsRPG\WinFormsRPG\obj\Debug\WinFormsRPG.Properties.Resource
 E:\Programming\WinFormsRPG\WinFormsRPG\obj\Debug\WinFormsRPG.csproj.GenerateResource.Cache
 E:\Programming\WinFormsRPG\WinFormsRPG\obj\Debug\WinFormsRPG.exe
 E:\Programming\WinFormsRPG\WinFormsRPG\obj\Debug\WinFormsRPG.pdb
+E:\Programming\WinFormsRPG\WinFormsRPG\obj\Debug\WinFormsRPG.csprojResolveAssemblyReference.cache
+E:\Programming\WinFormsRPG\WinFormsRPG\bin\Debug\Fonts\Perfect DOS VGA Font.ttf
+E:\Programming\WinFormsRPG\WinFormsRPG\bin\Debug\Audio\UI\click.wav
+E:\Programming\WinFormsRPG\WinFormsRPG\bin\Debug\Audio\UI\select.wav
